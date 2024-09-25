@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5d0a1cf9c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+        <section class="left">
+         <div class ="profile">
+            <img src="multimedia/man.jpg" alt="profile" />
+            <p>John Doe</p>
+
+         </div> 
+         <div class="nav">
+            <i class="fa-solid fa-list-ul"></i>
+            <a href="#board">DASHBOARD</a>
+         </div>
+         <div class="nav">
+            <i class="fa-solid fa-tags"></i>
+            <a href="#data">DATA</a>
+            
+         </div>
+         <div class="nav">
+            <i class="fa-solid fa-user"></i>
+            <a href="#user">USER</a>
+         </div>
+         
+         <div class="nav">
+            <i class="fa-solid fa-calendar-days"></i>
+            <a href="#schedule">SCHEDULE</a>
+         </div>
+         <div class="nav">
+            <i class="fa-solid fa-address-book"></i>
+            <a href="#contact">CONTACT</a>
+         </div>  
+
+        </section>
+        <section class="right">
+            <header>
+                <h1>DashBoard</h1>
+                <input placeholder="Search......" />
+            </header>
+            <article id="board">
+                <div>
+                    <h3>Activities</h3>
+                    <p>May-june 2023</p>
+                </div>
+                <div>
+                    <img src="multimedia/BarGraph.png" alt="Graph" />
+                </div>
+            </article>
+            <article id="data">
+                <h2>Dashboard Data</h2>
+                <div class = "card_container">
+                    <div class = "card1 card">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <p class="cardHead">Total Revanue</p>
+                        <p class="cardData">$456,43,22</p>  
+                    </div>
+                    <div class = "card2 card">
+                        <i class="fa-solid fa-tag"></i>
+                        <p class="cardHead">Total Transaction</p>
+                        <p class="cardData">1022</p>
+                    </div>
+                    <div class = "card3 card">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <p class="cardHead">Total Likes</p>
+                        <p class="cardData">1400</p>
+                    </div>
+                    <div class = "card4 card">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="cardHead">Total User</p>
+                        <p class="cardData">1112</p>
+                    </div>
+                        
+                
+            </article>
+            <article id="user">
+                <h2>User Intractions</h2>
+                <table>
+                    
+                    <tr>
+                        
+                        <th>Month</th>
+                        <th>Number Of Users</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>March</td>
+                        <td>1300</td>
+                    </tr>
+                    <tr>
+                        <td>April</td>
+                        <td>1400</td>   
+                    </tr>
+                    <tr>
+                        <td>May</td>
+                        <td>1500</td>
+                    </tr>
+                    </table>    
+            </article>
+            <article id="schedule">
+                <div class="schedule-head">
+                    <h3>Today's Schedule</h3>
+                    <p>See all</p>
+
+                </div>
+                <div class="meetings">
+                    <div>
+                         <p class="meet head">For Development</p>
+                        <p class="meet time">14:00-15:00</p>
+                        <p class="meet place">At sunset Mumbai</p>
+                     </div>
+                     <div>
+                        <p class="meet head">For Supply</p>
+                       <p class="meet time">14:00-15:00</p>
+                       <p class="meet place">At sunset Mumbai</p>
+                    </div>
+                    <div>
+                        <p class="meet head">For Marketing</p>
+                       <p class="meet time">14:00-15:00</p>
+                       <p class="meet place"> At sunset Delhi</p>
+                       </div>
+                       <div>
+                        <p class="meet head">For Development</p>
+                          <p class="meet time">14:00-15:00</p>
+                            <p class="meet place">At sunset Mumbai</p>
+                            </div>
+                            <div>
+                                <p class="meet head">For Supply</p>
+                               <p class="meet time">14:00-15:00</p>
+                               <p class="meet place">At sunset Mumbai</p>
+                               </div>
+                                 <div>
+                                  <p class="meet head">For Marketing</p>
+                                    <p class="meet time">14:00-15:00</p>
+                                        <p class="meet place"> At sunset Delhi</p>
+                                        </div>
+                        
+                </div>
+            </article>
+            <article id="contact">
+                <h2>Contact Details</h2>
+                    <div class="map-feedback">
+                        <div class = "map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26028.35465746094!2d76.60607915488242!3d12.295507795441223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7aab67734a87%3A0x9a88cfb78df5e7c7!2sApollo%20BGS%20Hospitals%2C%20Mysuru!5e0!3m2!1sen!2sin!4v1727296143243!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class = "feedback">
+                            <h3>Feedback</h3>
+                            <form action="#" post="#">
+                                <input type="text" placeholder="Your Name" />
+                                <input type="email" placeholder="Your Email" />
+                                <textarea placeholder="Your Feedback" rows="10"></textarea>
+                                <button>Submit</button>
+                            </form>
+
+                        </div>
+                    </div>
+
+            </article>
+            <footer>
+                <div>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p>&copy; 2023 Tata Connect . All Rights Reserved </p>
+            </footer>
+                
+
+        </section>
+    </main>
+  </body>
+</html>
